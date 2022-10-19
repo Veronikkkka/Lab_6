@@ -24,4 +24,7 @@ public class Flower {
     public String getColor() {
         return color.toString();
     }
+    public String toString(){
+        return this.getClass().getSimpleName() + ": " + color + ", " + price;
+    }
 }

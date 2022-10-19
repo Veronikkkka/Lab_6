@@ -16,4 +16,7 @@ public class FlowerPack {
     public double getPrice(){
         return flower.getPrice() * quantity;
     }
+    public String toString(){
+        return "Pack(" + flower +", " + quantity + " items)";
+    }
 }
