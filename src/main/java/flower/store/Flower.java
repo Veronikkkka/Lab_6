@@ -16,8 +16,9 @@ public class Flower {
     public Flower(){
 
     }
-    public Flower(double sepalLength_, FlowerColor color_, double price){
-        super();
+    public Flower(double sepalLength_, FlowerColor color_, double price_){
+        this.price = price_;
+        this.color = color_;
     }
 
     public String getColor() {
