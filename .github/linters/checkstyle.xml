@@ -68,9 +68,9 @@
         <!-- http://checkstyle.sourceforge.net/config_design.html                        -->
         <!-- =========================================================================== -->
         <!-- SPECIAL HACK FOR NON-STATIC PUBIC FINAL VARIABLE -->
-        <module name="VisibilityModifier">
-            <property name="publicMemberPattern" value="^SLOPE_ORDER$"/>
-        </module>
+<!--        <module name="VisibilityModifier">-->
+<!--            <property name="publicMemberPattern" value="^SLOPE_ORDER$"/>-->
+<!--        </module>-->
         <!-- <module name="FinalClass"/> -->
         <module name="InterfaceIsType"/>
         <module name="MutableException"/>
@@ -90,12 +90,12 @@
         </module>
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
-        <module name="MagicNumber">
-            <property name="tokens"
-                      value="NUM_DOUBLE, NUM_FLOAT, NUM_INT, NUM_LONG"/>
-            <property name="ignoreNumbers" value="-1, 0, 0.5, 1, 2"/>
-            <property name="ignoreHashCodeMethod" value="true"/>
-        </module>
+<!--        <module name="MagicNumber">-->
+<!--            <property name="tokens"-->
+<!--                      value="NUM_DOUBLE, NUM_FLOAT, NUM_INT, NUM_LONG"/>-->
+<!--            <property name="ignoreNumbers" value="-1, 0, 0.5, 1, 2"/>-->
+<!--            <property name="ignoreHashCodeMethod" value="true"/>-->
+<!--        </module>-->
         <module name="MissingSwitchDefault"/>
         <module name="ModifiedControlVariable"/>
         <module name="SimplifyBooleanExpression"/>
@@ -220,9 +220,9 @@
             <property name="format" value="^[a-z]+(\.[a-z][a-z]*)*$"/>
         </module>
         <module name="PackageName"/>
-        <module name="ParameterName">
-            <property name="format" value="^[a-z][a-zA-Z]*$"/>
-        </module>
+<!--        <module name="ParameterName">-->
+<!--            <property name="format" value="^[a-z][a-zA-Z]*$"/>-->
+<!--        </module>-->
         <module name="StaticVariableName">
             <property name="format" value="^[a-z][a-zA-Z]*$|^[A-Z][A-Z_]*$"/>
         </module>
@@ -283,20 +283,20 @@
         <module name="ParenPad"/>
         <module name="TypecastParenPad"/>
         <module name="WhitespaceAfter"/>
-        <module name="WhitespaceAround">
-            <!-- removed PLUS, MINUS, STAR, DIV -->
-            <!-- removed GENERIC_START, GENERIC_END -->
-            <property name="tokens"
-                      value="ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR,
-                   BSR_ASSIGN, BXOR, BXOR_ASSIGN, COLON,  DIV_ASSIGN,
-                   EQUAL, GE, GT, LAND, LCURLY, LE, LITERAL_ASSERT,
-                   LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,
-                   LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SYNCHRONIZED,
-                   LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS_ASSIGN, MOD,
-                   MOD_ASSIGN, NOT_EQUAL, PLUS_ASSIGN, QUESTION, RCURLY,
-                   SL, SLIST, SL_ASSIGN, SR, SR_ASSIGN, STAR_ASSIGN,
-                   TYPE_EXTENSION_AND, WILDCARD_TYPE"/>
-        </module>
+<!--        <module name="WhitespaceAround">-->
+<!--            &lt;!&ndash; removed PLUS, MINUS, STAR, DIV &ndash;&gt;-->
+<!--            &lt;!&ndash; removed GENERIC_START, GENERIC_END &ndash;&gt;-->
+<!--            <property name="tokens"-->
+<!--                      value="ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR,-->
+<!--                   BSR_ASSIGN, BXOR, BXOR_ASSIGN, COLON,  DIV_ASSIGN,-->
+<!--                   EQUAL, GE, GT, LAND, LCURLY, LE, LITERAL_ASSERT,-->
+<!--                   LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,-->
+<!--                   LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SYNCHRONIZED,-->
+<!--                   LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS_ASSIGN, MOD,-->
+<!--                   MOD_ASSIGN, NOT_EQUAL, PLUS_ASSIGN, QUESTION, RCURLY,-->
+<!--                   SL, SLIST, SL_ASSIGN, SR, SR_ASSIGN, STAR_ASSIGN,-->
+<!--                   TYPE_EXTENSION_AND, WILDCARD_TYPE"/>-->
+<!--        </module>-->
 
         <module name="NeedBraces"/>
 
